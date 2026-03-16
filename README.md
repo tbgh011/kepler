@@ -21,4 +21,11 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 - The included installer handles all dependencies automatically
 
 ## Documentation
-User Guide, Technical Reference, Planet Tutorials, and Installation Guide are included as downloads on the Releases page.
+| Document | View |
+|----------|------|
+| User Guide | [View PDF](docs/Kepler_User_Guide_v115.pdf) |
+| Technical Reference | [View PDF](docs/Kepler_Technical_Reference_v115.pdf) |
+| Planet Tutorials | [View PDF](docs/Kepler_Planet_Tutorials_v115_corrected%20tb.pdf) |
+| Installation Guide | [View PDF](docs/Kepler_Installation_Guide.pdf) |
+
+Full documentation also available as downloads on the [Releases page](https://github.com/tbgh011/kepler/releases).

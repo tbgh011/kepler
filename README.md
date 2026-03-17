@@ -1,6 +1,6 @@
 # Kepler — Planetary Image Processing Suite
 
-Kepler is a professional planetary image processing application for Windows and Linux, designed for planetary astrophotographers.
+Kepler is an open-source, actively developed planetary image processing application for Windows and Linux, designed specifically for astrophotographers.
 
 ## Features
 

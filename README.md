@@ -28,3 +28,11 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 ## Documentation
 
 User Guide, Technical Reference, Planet Tutorials, and Installation Guide are included as downloads on the Releases page.
+## Copyright
+
+Copyright © 2026 Tony Bailey. (tbgh011)
+
+This project — **Kepler: Planetary Image Processing Suite** — is released under the MIT License.  
+You are free to use, modify, distribute, and build upon this software, provided that the original copyright notice and license text are included in all copies or substantial portions of the software.
+
+See the included `LICENSE` file for full terms.

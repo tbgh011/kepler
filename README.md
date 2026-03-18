@@ -2,6 +2,17 @@
 
 Kepler is an open-source, actively developed planetary image processing application for Windows and Linux, designed specifically for astrophotographers.
 
+## Reporting Bugs and Requesting Features
+To report a bug, request a feature, or ask a question, please use the **Issues** tab at the top of this repository.
+
+1. Click **Issues**
+2. Click **New Issue**
+3. Choose the Bug Report or Feature Request template
+4. Fill in the details and submit
+
+This helps keep all feedback organized and easy to track.
+
+
 ## Features
 
 - Wavelet sharpening (Gaussian, Z-Gaussian, Bilateral, B3-spline) with per-layer Sharpen, Denoise, and SharpenFilter controls

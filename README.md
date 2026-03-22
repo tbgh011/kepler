@@ -34,6 +34,7 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 
 - Python 3.8+
 - Windows 10/11 or Linux (tested on Linux Mint)
+- macOS Catalina (10.15) and later
 - The included installer handles all dependencies automatically
 
 ## Documentation

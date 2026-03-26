@@ -24,6 +24,7 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 - Windows 10/11 or Linux (tested on Linux Mint): Python 3.8+
 - macOS Catalina (10.15) and later: Python 3.11+ (installed automatically by the installer)
 - The included installer handles all dependencies automatically
+
 ## Installation
 ### Windows
 Download and extract `kepler_v1.2.1.zip`, then open `installer\windows\`, right-click `install.bat` and choose **Run as administrator**.
@@ -35,7 +36,7 @@ bash installer/linux/install.sh
 ### macOS
 Download `kepler_v1.2.1.zip` — macOS will automatically extract it to your Downloads folder. Then open Terminal and run:
 ```bash
-bash ~/Downloads/kepler_v1.2.1/installer/macos/install.sh
+bash ~/Downloads/kepler_v1/installer/macos/install.sh
 ```
 The installer GUI will open and guide you through the rest of the process.
 ## Documentation

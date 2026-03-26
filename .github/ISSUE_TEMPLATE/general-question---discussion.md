@@ -1,6 +1,6 @@
 ---
 name: General question / discussion
-about: Describe this issue template's purpose here.
+about: Feedback and questions
 title: ''
 labels: ''
 assignees: ''

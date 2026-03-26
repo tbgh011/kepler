@@ -39,7 +39,15 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 
 ## Documentation
 
-User Guide, Technical Reference, Planet Tutorials, and Installation Guide are included as downloads on the Releases page.
+Full documentation is included as downloads on the Releases page:
+
+| Document | Description |
+|----------|-------------|
+| Installation Guide | Step-by-step installation for Windows, macOS, and Linux |
+| User Guide | Interface reference, tab descriptions, practical tips |
+| Technical Reference | Algorithm details, architecture, API reference |
+| Tutorials | Worked examples for Jupiter, Saturn, and other targets |
+
 ## Copyright
 
 Copyright © 2026 Tony Bailey. (tbgh011)

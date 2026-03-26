@@ -36,6 +36,25 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 - macOS Catalina (10.15) and later
 - The included installer handles all dependencies automatically
 
+## Installation
+
+### Windows
+Extract the zip, open `installer\windows\`, right-click `install.bat` and choose **Run as administrator**.
+
+### macOS
+Extract the zip, open Terminal, `cd` to `installer/macos/`, and run:
+```bash
+bash install.sh
+```
+
+### Linux
+Extract the zip, open Terminal, `cd` to `installer/linux/`, and run:
+```bash
+bash install.sh
+```
+
+The installer GUI will open and guide you through the rest of the process.
+
 ## Documentation
 
 Full documentation is included as downloads on the Releases page:

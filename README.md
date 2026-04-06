@@ -1,12 +1,15 @@
 # Kepler — Planetary Image Processing Suite
 Kepler is a free, open-source, actively developed planetary image processing application for Linux, macOS and Windows.
+
 ## Reporting Bugs and Requesting Features
 To report a bug, request a feature, or ask a question, please use the **Issues** tab at the top of this repository.
 1. Click **Issues**
 2. Click **New Issue**
 3. Choose the Bug Report or Feature Request template
 4. Fill in the details and submit
+
 This helps keep all feedback organized and easy to track.
+
 ## Features
 - Wavelet sharpening (Gaussian, Z-Gaussian, Bilateral, B3-spline) with per-layer Sharpen, Denoise, and SharpenFilter controls
 - FFT denoising with interactive frequency curve and pre/post-wavelet placement
@@ -18,8 +21,11 @@ This helps keep all feedback organized and easy to track.
 - Projects — save and reload all processing settings to a named .kproj file; separate image and project folders remembered between sessions
 - Preview rotation with batch sync and export
 - Batch processing with animation export (WebP/GIF)
+- **Planetary de-rotation** — co-add multiple sharpened stacks captured over 20–30 minutes with full IAU-2018 geometry and JPL Horizons ephemeris, supporting Jupiter (CM II), Saturn (CM III), and Mars (CM I)
+
 ## Download
 See the [Releases page](https://github.com/tbgh011/kepler/releases) to download the latest version.
+
 ## Requirements
 - Windows 10/11 or Linux (tested on Linux Mint): Python 3.8+
 - macOS Catalina (10.15) and later: Python 3.11+ (installed automatically by the installer)
@@ -27,29 +33,35 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 
 ## Installation
 ### Windows
-Download and extract `kepler_v1.2.1.zip`, then open `installer\windows\`, right-click `install.bat` and choose **Run as administrator**.
+Download and extract `kepler_v1.2.2.zip`, then open `installer\windows\`, right-click `install.bat` and choose **Run as administrator**.
+
 ### Linux
-Download and extract `kepler_v1.2.1.zip`, then open Terminal and run:
+Download and extract `kepler_v1.2.2.zip`, then open Terminal and run:
 ```bash
 bash installer/linux/install.sh
 ```
+
 ### macOS
-Download `kepler_v1.2.1.zip` — macOS will automatically extract it to your Downloads folder. Then open Terminal and run:
+Download and extract `kepler_v1.2.2.zip`, then open Terminal and run:
 ```bash
-bash ~/Downloads/kepler_v1/installer/macos/install.sh
+bash ~/Downloads/kepler_v1.2.2/installer/macos/install.sh
 ```
 The installer GUI will open and guide you through the rest of the process.
+
 ## Documentation
-Full documentation is included as downloads on the Releases page:
+Full documentation is included as PDF and DOCX downloads on the Releases page:
+
 | Document | Description |
 |----------|-------------|
 | Installation Guide | Step-by-step installation for Windows, macOS, and Linux |
 | User Guide | Interface reference, tab descriptions, practical tips |
 | Technical Reference | Algorithm details, architecture, API reference |
-| Tutorials | Worked examples for Jupiter, Saturn, and other targets |
+| Tutorials | Worked examples for Jupiter, Saturn, and Mars |
 
 ## Copyright
 Copyright © 2026 Tony Bailey. (tbgh011)
+
 This project — **Kepler: Planetary Image Processing Suite** — is released under the MIT License.  
 You are free to use, modify, distribute, and build upon this software, provided that the original copyright notice and license text are included in all copies or substantial portions of the software.
+
 See the [LICENSE](LICENSE) file for full terms.

@@ -12,7 +12,7 @@ This helps keep all feedback organized and easy to track.
 
 ## Features
 - Wavelet sharpening (Gaussian, Z-Gaussian, Bilateral, B3-spline) with per-layer Sharpen, Denoise, and SharpenFilter controls
-- FFT denoising with interactive frequency curve and pre/post-wavelet placement
+- FFT denoising driven by an interactive frequency-spectrum graph — POST (after all wavelet layers) and PRE-Layer 1/2/3 stages can be enabled in **any combination**, each keeping its own Start, End and Curve band
 - RGB color balance, saturation, vibrance, hue rotation
 - Levels & Curves with draggable tone curve canvas
 - CLAHE (Contrast Limited Adaptive Histogram Equalization)
@@ -33,28 +33,31 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 
 ## Installation
 ### Windows
-Download and extract `kepler_v1.2.2.zip`, then open `installer\windows\`, right-click `install.bat` and choose **Run as administrator**.
+Download and extract `kepler_v1.2.3.zip`, then open `installer\windows\`, right-click `install.bat` and choose **Run as administrator**.
 
 ### Linux
-Download and extract `kepler_v1.2.2.zip`, then open Terminal and run:
+Download and extract `kepler_v1.2.3.zip`, then open Terminal and run:
+
 ```bash
 bash installer/linux/install.sh
 ```
 
 ### macOS
-Download and extract `kepler_v1.2.2.zip`, then open Terminal and run:
+Download and extract `kepler_v1.2.3.zip`, then open Terminal and run:
+
 ```bash
-bash ~/Downloads/kepler_v1.2.2/installer/macos/install.sh
+bash ~/Downloads/kepler_v1.2.3/installer/macos/install.sh
 ```
+
 The installer GUI will open and guide you through the rest of the process.
 
 ## Documentation
-Full documentation is included as PDF and DOCX downloads on the Releases page:
+Full documentation ships inside the download in the `docs/` folder, and is also available as individual PDF and DOCX files on the Releases page:
 
 | Document | Description |
 |----------|-------------|
 | Installation Guide | Step-by-step installation for Windows, macOS, and Linux |
-| User Guide | Interface reference, tab descriptions, practical tips |
+| User Guide | Interface reference, tab descriptions, practical tips, and a step-by-step guide to FFT denoising |
 | Technical Reference | Algorithm details, architecture, API reference |
 | Tutorials | Worked examples for Jupiter, Saturn, and Mars |
 

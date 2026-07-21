@@ -33,7 +33,13 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 
 ## Installation
 ### Windows
-Download and extract `kepler_v123.zip`, then open `installer\windows\`, right-click `install.bat` and choose **Run as administrator**.
+Download `kepler_v123.zip`, then right-click it and choose **Extract All**.
+
+Windows extracts into a new folder named after the zip, so you may end up with `kepler_v123\kepler_v123\` — that is normal. To avoid it, delete the trailing `kepler_v123` from the destination path in the Extract dialog.
+
+Open the extracted `kepler_v123` folder, go to `installer\windows\`, then right-click `install.bat` and choose **Run as administrator**.
+
+
 
 ### Linux
 Download `kepler_v123.zip` to your Downloads folder, then open Terminal and run:

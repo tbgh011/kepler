@@ -36,20 +36,24 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 Download and extract `kepler_v1.2.3.zip`, then open `installer\windows\`, right-click `install.bat` and choose **Run as administrator**.
 
 ### Linux
-Download and extract `kepler_v1.2.3.zip`, then open Terminal and run:
+Download `kepler_v1.2.3.zip` to your Downloads folder, then open Terminal and run:
 
 ```bash
-bash installer/linux/install.sh
+unzip ~/Downloads/kepler_v1.2.3.zip -d ~/Downloads/kepler_v1.2.3
+bash ~/Downloads/kepler_v1.2.3/installer/linux/install.sh
 ```
 
 ### macOS
-Download and extract `kepler_v1.2.3.zip`, then open Terminal and run:
+Download `kepler_v1.2.3.zip` — macOS extracts it to `~/Downloads/kepler_v1.2.3` automatically. Then open Terminal and run:
 
 ```bash
 bash ~/Downloads/kepler_v1.2.3/installer/macos/install.sh
 ```
 
+A new Terminal window always starts in your home folder, so these commands work as-is — there is no need to `cd` anywhere first. If you extracted the zip somewhere other than Downloads, replace `~/Downloads/kepler_v1.2.3` with that folder.
+
 The installer GUI will open and guide you through the rest of the process.
+
 
 ## Documentation
 Full documentation ships inside the download in the `docs/` folder, and is also available as individual PDF and DOCX files on the Releases page:

@@ -45,9 +45,11 @@ Open the extracted `kepler_v123` folder, go to `installer\windows\`, then right-
 Download `kepler_v123.zip` to your Downloads folder, then open Terminal and run:
 
 ```bash
-unzip ~/Downloads/kepler_v123.zip -d ~/Downloads/kepler_v123
-bash ~/Downloads/kepler_v123/installer/linux/install.sh
+cd ~/Downloads
+unzip kepler_v123.zip
+bash kepler_v123/installer/linux/install.sh
 ```
+
 
 ### macOS
 Download `kepler_v123.zip` — macOS extracts it to `~/Downloads/kepler_v123` automatically. Then open Terminal and run:

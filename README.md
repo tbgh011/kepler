@@ -33,24 +33,24 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 
 ## Installation
 ### Windows
-Download and extract `kepler_v1.2.3.zip`, then open `installer\windows\`, right-click `install.bat` and choose **Run as administrator**.
+Download and extract `kepler_v123.zip`, then open `installer\windows\`, right-click `install.bat` and choose **Run as administrator**.
 
 ### Linux
-Download `kepler_v1.2.3.zip` to your Downloads folder, then open Terminal and run:
+Download `kepler_v123.zip` to your Downloads folder, then open Terminal and run:
 
 ```bash
-unzip ~/Downloads/kepler_v1.2.3.zip -d ~/Downloads/kepler_v1.2.3
-bash ~/Downloads/kepler_v1.2.3/installer/linux/install.sh
+unzip ~/Downloads/kepler_v123.zip -d ~/Downloads/kepler_v123
+bash ~/Downloads/kepler_v123/installer/linux/install.sh
 ```
 
 ### macOS
-Download `kepler_v1.2.3.zip` — macOS extracts it to `~/Downloads/kepler_v1.2.3` automatically. Then open Terminal and run:
+Download `kepler_v123.zip` — macOS extracts it to `~/Downloads/kepler_v123` automatically. Then open Terminal and run:
 
 ```bash
-bash ~/Downloads/kepler_v1.2.3/installer/macos/install.sh
+bash ~/Downloads/kepler_v123/installer/macos/install.sh
 ```
 
-A new Terminal window always starts in your home folder, so these commands work as-is — there is no need to `cd` anywhere first. If you extracted the zip somewhere other than Downloads, replace `~/Downloads/kepler_v1.2.3` with that folder.
+A new Terminal window always starts in your home folder, so these commands work as-is — there is no need to `cd` anywhere first. If you extracted the zip somewhere other than Downloads, replace `~/Downloads/kepler_v123` with that folder.
 
 The installer GUI will open and guide you through the rest of the process.
 

@@ -21,7 +21,8 @@ This helps keep all feedback organized and easy to track.
 - Projects — save and reload all processing settings to a named .kproj file; separate image and project folders remembered between sessions
 - Preview rotation with batch sync and export
 - Batch processing with animation export (WebP/GIF)
-- **Planetary de-rotation** — co-add multiple sharpened stacks captured over 20–30 minutes with full IAU-2018 geometry and JPL Horizons ephemeris, supporting Jupiter (CM II), Saturn (CM III), and Mars (CM I)
+- **Planetary de-rotation** — co-add multiple sharpened stacks captured over 20–30 minutes using true oblate-ellipsoid geometry, IAU-2018 pole orientation and JPL Horizons ephemeris, supporting Jupiter (CM II), Saturn (CM III), and Mars (CM I)
+- **Image Measurement** — a WinJUPOS-style wireframe (limb, equator, grid, and Saturn's rings) fitted to every frame with F11 or by hand. It measures the disc centre, size and the pole's orientation on your sensor, so images need no pre-rotation and drift between frames is corrected
 
 ## Download
 See the [Releases page](https://github.com/tbgh011/kepler/releases) to download the latest version.
@@ -33,35 +34,31 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 
 ## Installation
 ### Windows
-Download `kepler_v123.zip`, then right-click it and choose **Extract All**.
+Download `kepler_v130.zip`, then right-click it and choose **Extract All**.
 
-Windows extracts into a new folder named after the zip, so you may end up with `kepler_v123\kepler_v123\` — that is normal. To avoid it, delete the trailing `kepler_v123` from the destination path in the Extract dialog.
+Windows extracts into a new folder named after the zip, so you may end up with `kepler_v130\kepler_v130\` — that is normal. To avoid it, delete the trailing `kepler_v130` from the destination path in the Extract dialog.
 
-Open the extracted `kepler_v123` folder, go to `installer\windows\`, then right-click `install.bat` and choose **Run as administrator**.
-
-
+Open the extracted `kepler_v130` folder, go to `installer\windows\`, then right-click `install.bat` and choose **Run as administrator**.
 
 ### Linux
-Download `kepler_v123.zip` to your Downloads folder, then open Terminal and run:
+Download `kepler_v130.zip` to your Downloads folder, then open Terminal and run:
 
 ```bash
 cd ~/Downloads
-unzip kepler_v123.zip
-bash kepler_v123/installer/linux/install.sh
+unzip kepler_v130.zip
+bash kepler_v130/installer/linux/install.sh
 ```
-
 
 ### macOS
-Download `kepler_v123.zip` — macOS extracts it to `~/Downloads/kepler_v123` automatically. Then open Terminal and run:
+Download `kepler_v130.zip` — macOS extracts it to `~/Downloads/kepler_v130` automatically. Then open Terminal and run:
 
 ```bash
-bash ~/Downloads/kepler_v123/installer/macos/install.sh
+bash ~/Downloads/kepler_v130/installer/macos/install.sh
 ```
 
-A new Terminal window always starts in your home folder, so these commands work as-is — there is no need to `cd` anywhere first. If you extracted the zip somewhere other than Downloads, replace `~/Downloads/kepler_v123` with that folder.
+A new Terminal window starts in your home folder, so these commands work as typed. If you put the zip somewhere other than Downloads, use that folder instead.
 
 The installer GUI will open and guide you through the rest of the process.
-
 
 ## Documentation
 Full documentation ships inside the download in the `docs/` folder, and is also available as individual PDF and DOCX files on the Releases page:

@@ -22,7 +22,7 @@ This helps keep all feedback organized and easy to track.
 - Preview rotation with batch sync and export
 - Batch processing with animation export (WebP/GIF)
 - **Planetary de-rotation** — co-add multiple sharpened stacks captured over 20–30 minutes using true oblate-ellipsoid geometry, IAU-2018 pole orientation and JPL Horizons ephemeris, supporting Jupiter (CM II), Saturn (CM III), and Mars (CM I)
-- **Image Measurement** — a WinJUPOS-style wireframe (limb, equator, grid, and Saturn's rings) fitted to every frame with F11 or by hand. It measures the disc centre, size and the pole's orientation on your sensor, so images need no pre-rotation and drift between frames is corrected
+- **Image Measurement** — wireframe (limb, equator, grid, and Saturn's rings) fitted to every frame with F11 or by hand. It measures the disc centre, size and the pole's orientation on your sensor, so images need no pre-rotation and drift between frames is corrected
 
 ## Download
 See the [Releases page](https://github.com/tbgh011/kepler/releases) to download the latest version.

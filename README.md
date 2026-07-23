@@ -21,8 +21,8 @@ This helps keep all feedback organized and easy to track.
 - Projects — save and reload all processing settings to a named .kproj file; separate image and project folders remembered between sessions
 - Preview rotation with batch sync and export
 - Batch processing with animation export (WebP/GIF)
-- **Planetary de-rotation** — co-add multiple sharpened stacks captured over 20–30 minutes using true oblate-ellipsoid geometry, IAU-2018 pole orientation and JPL Horizons ephemeris, supporting Jupiter (CM II), Saturn (CM III), and Mars (CM I)
-- **Image Measurement** — wireframe (limb, equator, grid, and Saturn's rings) fitted to every frame with F11 or by hand. It measures the disc centre, size and the pole's orientation on your sensor, so images need no pre-rotation and drift between frames is corrected
+- **Planetary de-rotation** — co-add multiple sharpened stacks captured over 20–30 minutes using true oblate-ellipsoid geometry, IAU-2018 pole orientation and JPL Horizons ephemeris, supporting Jupiter (CM II), Saturn (CM III), and Mars (CM I). A **De-rotation LD** control softens the disc limb to suppress bright fringes and dark halos on the stacked result
+- **Image Measurement** — a wireframe (limb, equator, grid, and Saturn's rings) fitted to every frame with F11 or by hand. It measures the disc center, size and the pole's orientation on your sensor, so images need no pre-rotation and drift between frames is corrected. A **Measurement LD** compensation brightens the limb in the preview so the disc edge is easy to see and fit
 
 ## Download
 See the [Releases page](https://github.com/tbgh011/kepler/releases) to download the latest version.
@@ -34,26 +34,26 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 
 ## Installation
 ### Windows
-Download `kepler_v130.zip`, then right-click it and choose **Extract All**.
+Download `kepler_v131.zip`, then right-click it and choose **Extract All**.
 
-Windows extracts into a new folder named after the zip, so you may end up with `kepler_v130\kepler_v130\` — that is normal. To avoid it, delete the trailing `kepler_v130` from the destination path in the Extract dialog.
+Windows extracts into a new folder named after the zip, so you may end up with `kepler_v131\kepler_v131\` — that is normal. To avoid it, delete the trailing `kepler_v131` from the destination path in the Extract dialog.
 
-Open the extracted `kepler_v130` folder, go to `installer\windows\`, then right-click `install.bat` and choose **Run as administrator**.
+Open the extracted `kepler_v131` folder, go to `installer\windows\`, then right-click `install.bat` and choose **Run as administrator**.
 
 ### Linux
-Download `kepler_v130.zip` to your Downloads folder, then open Terminal and run:
+Download `kepler_v131.zip` to your Downloads folder, then open Terminal and run:
 
 ```bash
 cd ~/Downloads
-unzip kepler_v130.zip
-bash kepler_v130/installer/linux/install.sh
+unzip kepler_v131.zip
+bash kepler_v131/installer/linux/install.sh
 ```
 
 ### macOS
-Download `kepler_v130.zip` — macOS extracts it to `~/Downloads/kepler_v130` automatically. Then open Terminal and run:
+Download `kepler_v131.zip` — macOS extracts it to `~/Downloads/kepler_v131` automatically. Then open Terminal and run:
 
 ```bash
-bash ~/Downloads/kepler_v130/installer/macos/install.sh
+bash ~/Downloads/kepler_v131/installer/macos/install.sh
 ```
 
 A new Terminal window starts in your home folder, so these commands work as typed. If you put the zip somewhere other than Downloads, use that folder instead.

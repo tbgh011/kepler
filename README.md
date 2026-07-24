@@ -16,7 +16,7 @@ This helps keep all feedback organized and easy to track.
 - RGB color balance, saturation, vibrance, hue rotation
 - Levels & Curves with draggable tone curve canvas
 - CLAHE (Contrast Limited Adaptive Histogram Equalization)
-- De-rind — limb dark-undershoot correction with Saturn mode, Arc Start/End gap control, and Show Mask overlay
+- De-rind — removes the bright or dark rind heavy sharpening leaves at a planet's edge. One-click **Auto De-rind**, then Edge and Feather; **Saturn mode** keeps the correction off the rings automatically at any image rotation, including where they cross in front of the globe. Corrects in luminance only, so your RGB color work is preserved. Show Mask overlay and a manual Arc Start/End wedge are available for fine control
 - Channel View — inspect L, R, G, B, and Saturation channels independently in the preview
 - Projects — save and reload all processing settings to a named .kproj file; separate image and project folders remembered between sessions
 - Preview rotation with batch sync and export
@@ -34,26 +34,26 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 
 ## Installation
 ### Windows
-Download `kepler_v131.zip`, then right-click it and choose **Extract All**.
+Download `kepler_v132.zip`, then right-click it and choose **Extract All**.
 
-Windows extracts into a new folder named after the zip, so you may end up with `kepler_v131\kepler_v131\` — that is normal. To avoid it, delete the trailing `kepler_v131` from the destination path in the Extract dialog.
+Windows extracts into a new folder named after the zip, so you may end up with `kepler_v132\kepler_v132\` — that is normal. To avoid it, delete the trailing `kepler_v132` from the destination path in the Extract dialog.
 
-Open the extracted `kepler_v131` folder, go to `installer\windows\`, then right-click `install.bat` and choose **Run as administrator**.
+Open the extracted `kepler_v132` folder, go to `installer\windows\`, then right-click `install.bat` and choose **Run as administrator**.
 
 ### Linux
-Download `kepler_v131.zip` to your Downloads folder, then open Terminal and run:
+Download `kepler_v132.zip` to your Downloads folder, then open Terminal and run:
 
 ```bash
 cd ~/Downloads
-unzip kepler_v131.zip
-bash kepler_v131/installer/linux/install.sh
+unzip kepler_v132.zip
+bash kepler_v132/installer/linux/install.sh
 ```
 
 ### macOS
-Download `kepler_v131.zip` — macOS extracts it to `~/Downloads/kepler_v131` automatically. Then open Terminal and run:
+Download `kepler_v132.zip` — macOS extracts it to `~/Downloads/kepler_v132` automatically. Then open Terminal and run:
 
 ```bash
-bash ~/Downloads/kepler_v131/installer/macos/install.sh
+bash ~/Downloads/kepler_v132/installer/macos/install.sh
 ```
 
 A new Terminal window starts in your home folder, so these commands work as typed. If you put the zip somewhere other than Downloads, use that folder instead.

@@ -12,6 +12,8 @@ This helps keep all feedback organized and easy to track.
 
 ## Features
 - Wavelet sharpening (Gaussian, Z-Gaussian, Bilateral, B3-spline) with per-layer Sharpen, Denoise, and SharpenFilter controls
+- Chroma Denoise — smooths color noise in RGB/LRGB by blurring the chroma after sharpening, keeping hue and luminance detail so the image is denoised without washing out
+- Align RGB channels — automatic per-channel registration that shifts red and blue back into line with green, removing colored fringing from atmospheric dispersion or a misaligned stack; runs before sharpening and works in single and batch processing
 - FFT denoising driven by an interactive frequency-spectrum graph — POST (after all wavelet layers) and PRE-Layer 1/2/3 stages can be enabled in **any combination**, each keeping its own Start, End and Curve band
 - RGB color balance, saturation, vibrance, hue rotation
 - Levels & Curves with draggable tone curve canvas
@@ -34,26 +36,26 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 
 ## Installation
 ### Windows
-Download `kepler_v132.zip`, then right-click it and choose **Extract All**.
+Download `kepler_v133.zip`, then right-click it and choose **Extract All**.
 
-Windows extracts into a new folder named after the zip, so you may end up with `kepler_v132\kepler_v132\` — that is normal. To avoid it, delete the trailing `kepler_v132` from the destination path in the Extract dialog.
+Windows extracts into a new folder named after the zip, so you may end up with `kepler_v133\kepler_v133\` — that is normal. To avoid it, delete the trailing `kepler_v133` from the destination path in the Extract dialog.
 
-Open the extracted `kepler_v132` folder, go to `installer\windows\`, then right-click `install.bat` and choose **Run as administrator**.
+Open the extracted `kepler_v133` folder, go to `installer\windows\`, then right-click `install.bat` and choose **Run as administrator**.
 
 ### Linux
-Download `kepler_v132.zip` to your Downloads folder, then open Terminal and run:
+Download `kepler_v133.zip` to your Downloads folder, then open Terminal and run:
 
 ```bash
 cd ~/Downloads
-unzip kepler_v132.zip
-bash kepler_v132/installer/linux/install.sh
+unzip kepler_v133.zip
+bash kepler_v133/installer/linux/install.sh
 ```
 
 ### macOS
-Download `kepler_v132.zip` — macOS extracts it to `~/Downloads/kepler_v132` automatically. Then open Terminal and run:
+Download `kepler_v133.zip` — macOS extracts it to `~/Downloads/kepler_v133` automatically. Then open Terminal and run:
 
 ```bash
-bash ~/Downloads/kepler_v132/installer/macos/install.sh
+bash ~/Downloads/kepler_v133/installer/macos/install.sh
 ```
 
 A new Terminal window starts in your home folder, so these commands work as typed. If you put the zip somewhere other than Downloads, use that folder instead.

@@ -8,7 +8,7 @@ To report a bug, request a feature, or ask a question, please use the **Issues**
 3. Choose the Bug Report or Feature Request template
 4. Fill in the details and submit
 
-This helps keep all feedback organized and easy to track.
+This helps keep all feedback organized and easy to track. 
 
 ## Features
 - Wavelet sharpening (Gaussian, Z-Gaussian, Bilateral, B3-spline) with per-layer Sharpen, Denoise, and SharpenFilter controls

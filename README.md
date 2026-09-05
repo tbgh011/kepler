@@ -72,6 +72,8 @@ Full documentation ships inside the download in the `docs/` folder, and is also 
 | Technical Reference | Algorithm details, architecture, API reference |
 | Tutorials | Worked examples for Jupiter, Saturn, and Mars |
 
+Kepler is based on the concepts of waveSharp3 (https://codeberg.org/Corbee/waveSharp3.0/releases)
+
 ## Copyright
 Copyright © 2026 Tony Bailey. (tbgh011)
 

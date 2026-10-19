@@ -36,26 +36,26 @@ See the [Releases page](https://github.com/tbgh011/kepler/releases) to download 
 
 ## Installation
 ### Windows
-Download `kepler_v138.zip`, then right-click it and choose **Extract All**.
+Download `kepler_v139.zip`, then right-click it and choose **Extract All**.
 
-Windows extracts into a new folder named after the zip, so you may end up with `kepler_v138\kepler_v138\` — that is normal. To avoid it, delete the trailing `kepler_v138` from the destination path in the Extract dialog.
+Windows extracts into a new folder named after the zip, so you may end up with `kepler_v139\kepler_v139\` — that is normal. To avoid it, delete the trailing `kepler_v139` from the destination path in the Extract dialog.
 
-Open the extracted `kepler_v138` folder, go to `installer\windows\`, then right-click `install.bat` and choose **Run as administrator**.
+Open the extracted `kepler_v139` folder, go to `installer\windows\`, then right-click `install.bat` and choose **Run as administrator**.
 
 ### Linux
-Download `kepler_v138.zip` to your Downloads folder, then open Terminal and run:
+Download `kepler_v139.zip` to your Downloads folder, then open Terminal and run:
 
 ```bash
 cd ~/Downloads
-unzip kepler_v138.zip
-bash kepler_v138/installer/linux/install.sh
+unzip kepler_v139.zip
+bash kepler_v139/installer/linux/install.sh
 ```
 
 ### macOS
-Download `kepler_v138.zip` — macOS extracts it to `~/Downloads/kepler_v138` automatically. Then open Terminal and run:
+Download `kepler_v139.zip` — macOS extracts it to `~/Downloads/kepler_v139` automatically. Then open Terminal and run:
 
 ```bash
-bash ~/Downloads/kepler_v138/installer/macos/install.sh
+bash ~/Downloads/kepler_v139/installer/macos/install.sh
 ```
 
 A new Terminal window starts in your home folder, so these commands work as typed. If you put the zip somewhere other than Downloads, use that folder instead.
